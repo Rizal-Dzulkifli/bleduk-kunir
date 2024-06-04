@@ -776,11 +776,6 @@ const Header = () => {
                             <li>
                                 <NavLink to="/widgets">{t('widgets')}</NavLink>
                             </li>
-                            <li>
-                                <NavLink to="https://vristo.sbthemes.com" target="_blank">
-                                    {t('documentation')}
-                                </NavLink>
-                            </li>
                         </ul>
                     </li>
                 </ul>
