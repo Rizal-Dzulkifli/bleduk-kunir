@@ -13,7 +13,7 @@ import IconEye from '../../../components/Icon/IconEye';
 const List = () => {
     const dispatch = useDispatch();
     useEffect(() => {
-        dispatch(setPageTitle('Invoice List'));
+        dispatch(setPageTitle('Penjualan'));
     });
     const [items, setItems] = useState([
         {

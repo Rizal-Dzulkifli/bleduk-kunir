@@ -18,7 +18,7 @@ import IconX from '../../components/Icon/IconX';
 const Scrumboard = () => {
     const dispatch = useDispatch();
     useEffect(() => {
-        dispatch(setPageTitle('Scrumboard'));
+        dispatch(setPageTitle('Catatan'));
     });
     const [projectList, setProjectList] = useState<any>([
         {

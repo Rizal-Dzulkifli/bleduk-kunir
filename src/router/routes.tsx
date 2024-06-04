@@ -3,7 +3,6 @@ import { EndOfLineState } from 'typescript';
 const Index = lazy(() => import('../pages/Analisis'));
 const Finance = lazy(() => import('../pages/Dashboard'));
 const Contacts = lazy(() => import('../pages/Apps/Kontak'));
-const Chat = lazy(() => import('../pages/Apps/Chat'));
 const Scrumboard = lazy(() => import('../pages/Apps/Catatan'));
 const Calendar = lazy(() => import('../pages/Apps/Calendar'));
 const List = lazy(() => import('../pages/Apps/penjualan/List'));
@@ -45,10 +44,6 @@ const routes = [
     {
         path: '/apps/pembelian/list',
         element: <Listt />,
-    },
-    {
-        path: '/apps/chat',
-        element: <Chat />,
     },
     {
         path: '/apps/scrumboard',

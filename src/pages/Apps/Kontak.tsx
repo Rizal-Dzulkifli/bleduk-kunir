@@ -11,7 +11,7 @@ import IconX from '../../components/Icon/IconX';
 const Contacts = () => {
     const dispatch = useDispatch();
     useEffect(() => {
-        dispatch(setPageTitle('Contacts'));
+        dispatch(setPageTitle('Kontak'));
     });
     const [addContactModal, setAddContactModal] = useState<any>(false);
 
